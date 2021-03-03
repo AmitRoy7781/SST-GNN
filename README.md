@@ -1,5 +1,6 @@
 # SST-GNN: Simplified Spatio-temporal Traffic forecasting model using Graph Neural Network
-** Authors**
+
+**Authors**
 - [Amit Roy](https://github.com/AmitRoy7781)
 - [Kashob Kumar Roy](https://github.com/forkkr)
 
@@ -10,9 +11,9 @@ which has been accepted by PAKDD 2021.
 # Requirements
 Create a new conda Environment and install required packages(Commands are for ubuntu 16.04)
 
-conda create -n TrafficEnv python=3.7
-conda activate TrafficEnv
-pip install -r requirements.txt
+- conda create -n TrafficEnv python=3.7
+- conda activate TrafficEnv
+- pip install -r requirements.txt
 
 
 # Basic Usage:
