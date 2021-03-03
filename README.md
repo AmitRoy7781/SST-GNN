@@ -1,11 +1,11 @@
 # SST-GNN: Simplified Spatio-temporal Traffic forecasting model using Graph Neural Network
 
 **Authors**
-- [Amit Roy](https://github.com/AmitRoy7781)
-- [Kashob Kumar Roy](https://github.com/forkkr)
-- Amin Ahsan Ali
-- M Ashraful Amin and 
-- A K M Mahbubur Rahman
+- [Amit Roy](https://github.com/AmitRoy7781) :  [amitroy7781@gmail.com](mailto:amitroy7781@gmail.com)
+- [Kashob Kumar Roy](https://github.com/forkkr) [kashobroy@gmail.com](mailto:kashobroy@gmail.com)
+- Amin Ahsan Ali [aminali@iub.edu.bd](mailto:aminali@iub.edu.bd)
+- M Ashraful Amin [aminmdashraful@iub.edu.bd](mailto:aminmdashraful@iub.edu.bd) and 
+- A K M Mahbubur Rahman [akmmrahman@iub.edu.bd](mailto:akmmrahman@iub.edu.bd)
 
 This is a pytorch implementation of SST-GNN: Simplified Spatio-temporal Traffic forecasting model using Graph Neural Network
 which has been accepted by PAKDD 2021.
