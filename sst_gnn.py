@@ -777,17 +777,20 @@ parser = argparse.ArgumentParser(description='pytorch version of Traffic Forecas
 parser.add_argument('-f')  
 
 
-parser.add_argument('--dataset', type=str, default='PeMSD4')
-parser.add_argument('--input_size', type=int, default=8)
-parser.add_argument('--out_size', type=int, default=8)
+parser.add_argument('--dataset', type=str, default='PeMSD7')
+parser.add_argument('--GNN_layers', type=int, default=3)
+parser.add_argument('--num_timestamps', type=int, default=12)
+parser.add_argument('--pred_len', type=int, default=9)
 parser.add_argument('--epochs', type=int, default=200)
 parser.add_argument('--seed', type=int, default=824)
 parser.add_argument('--cuda', action='store_true',help='use CUDA')
 parser.add_argument('--trained_model', action='store_true')
 parser.add_argument('--save_model', action='store_true')
-parser.add_argument('--num_timestamps', type=int, default=12)
-parser.add_argument('--GNN_layers', type=int, default=4)
-parser.add_argument('--pred_len', type=int, default=9)
+parser.add_argument('--input_size', type=int, default=8)
+parser.add_argument('--out_size', type=int, default=8)
+
+
+
 args = parser.parse_args()
 
 args.cuda = False
@@ -840,8 +843,4 @@ else:
     print("Running Trained Model...")
     hModel.run_Trained_Model() #run trained model
 
-"""# Mount Drive"""
-
-from google.colab import drive
-drive.mount('/content/drive')
 

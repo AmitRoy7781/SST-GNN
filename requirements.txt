@@ -1,0 +1,11 @@
+numpy
+Pillow
+pyparsing
+scipy
+six
+sklearn
+torch
+torchvision
+matplotlib
+pandas
+pyhocon
