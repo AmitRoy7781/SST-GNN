@@ -31,15 +31,15 @@ $ pip install -r requirements.txt
 Main Parameters:
 
 ```
-- --dataset   The input traffic dataset(default:PeMSD7)
-- --GNN_layers   Number of layers in GNN(default:3)
-- --num_timestamps   Number of timestamps in Historical and current model(default:12)
-- --pred_len   Traffic Prediction after how many timestamps(default:3)
-- --epochs   Number of epochs during training(default:200)
-- --seed   Random seed. (default: 42)
-- --cud   Use GPU if declared
-- --save_model   Save model if declared
-- --trained_model   Run pretrained model if declaired
+--dataset           The input traffic dataset(default:PeMSD7)
+--GNN_layers        Number of layers in GNN(default:3)
+--num_timestamps    Number of timestamps in Historical and current model(default:12)
+--pred_len          Traffic Prediction after how many timestamps(default:3)
+--epochs            Number of epochs during training(default:200)
+--seed              Random seed. (default: 42)
+--cuda              Use GPU if declared
+--save_model        Save model if declared
+--trained_model     Run pretrained model if declaired
 ```
 
 # Example Usage
