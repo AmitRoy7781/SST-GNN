@@ -28,7 +28,7 @@ $ pip install -r requirements.txt
 
 # Basic Usage:
 
-Main Parameters:
+**Main Parameters:**
 
 ```
 --dataset           The input traffic dataset(default:PeMSD7)
@@ -42,7 +42,6 @@ Main Parameters:
 --trained_model     Run pretrained model if declaired
 ```
 
-# Example Usage
 
 **Train Model Using:**
 ```
