@@ -7,8 +7,7 @@
 - [M Ashraful Amin](http://www.cse.iub.edu.bd/faculties/25) 
 - [A K M Mahbubur Rahman](http://www.cse.iub.edu.bd/faculties/56)
 
-This is the official pytorch implementation of SST-GNN: Simplified Spatio-temporal Traffic forecasting model using Graph Neural Network
-which has been accepted by PAKDD 2021.
+This is the official pytorch implementation of our [paper](https://arxiv.org/abs/2104.00055) SST-GNN: Simplified Spatio-temporal Traffic forecasting model using Graph Neural Network which has been accepted by PAKDD 2021. Check the video presentation of our paper [here](https://youtu.be/Vl4P5IfbuE4)
 
 # Envirnoment Set-Up 
 
