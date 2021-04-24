@@ -17,9 +17,13 @@ To capture spatial relationships and temporal dynamics in traffic data, spatio-t
 
 ![Model Overview](model_architecture.png?raw=true "Title")
 
+Inter-timestamp edges are introduced between identical nodes of consecutive timestamps e.g. an edge between a blue node at timestamp 09:05 AM and a blue node at timestamp 09:10 AM where the same color indicates identical nodes. Although both historical and current-day model deals with the same spatio-temporal graph consisting of all timestamp graphs over 5 min interval in the past hour of the prediction window, the historical model considers traffic features from last week to capture the repeated daily patterns while the current-day model uses only current day (e.g. Tuesday) information to find current day patterns in traffic data. Spatial dependency is captured through aggregating features from different neighborhoods on each timestamp graph while temporal dependency is preserved by performing temporal aggregation among the node representations learned from previous timestamps which are depicted in the Figure above. Finally, concatenation followed by weighted transformation is performed to compute the spatio-temporal embeddings of nodes which are used for traffic prediction.
+
 # Weighted Spatio-Temporal Aggregation
 
 ![Weighted Spatio-Temporal Aggregation](st_aggregation.png?raw=true "Title")
+
+Spatio-Temporal Aggregation Scheme: To capture complex spatio-temporal dependencies in traffic networks, the historical model concatenates the spatial embeddings from different hop neighborhoods at each timestamp t with temporal embedding from previous timestamps to learn spatio-temporal embeddings. Similarly, current-day model performs the same process.
 
 # Comarison with Baselines
 
