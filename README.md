@@ -23,7 +23,7 @@ Inter-timestamp edges are introduced between identical nodes of consecutive time
 
 ![Weighted Spatio-Temporal Aggregation](st_aggregation.png?raw=true "Title")
 
-Spatio-Temporal Aggregation Scheme: To capture complex spatio-temporal dependencies in traffic networks, the historical model concatenates the spatial embeddings from different hop neighborhoods at timestamp **t** with temporal embedding **Z̃<sub>H</sub><sup>t</sup>** - the weighted aggregation of **(Z<sub>H</sub><sup>1</sup>,...,Z<sub>H</sub><sup>t-1</sup>)**, to learn spatio-temporal embeddings **Z<sub>H</sub><sup>t</sup>**. Similarly, current-day model performs the same process.
+Spatio-Temporal Aggregation Scheme: To capture complex spatio-temporal dependencies in traffic networks, the historical model concatenates the spatial embeddings from different hop neighborhoods at timestamp **t** with temporal embedding **Z̃<sub>H</sub><sup><t></sup>** - the weighted aggregation of **(Z<sub>H</sub><sup><1></sup>,...,Z<sub>H</sub><sup><t-1></sup>)**, to learn spatio-temporal embeddings **Z<sub>H</sub><sup>t</sup>**. Similarly, current-day model performs the same process.
 
 # Comarison with Baselines
 
