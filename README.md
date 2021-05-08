@@ -9,6 +9,26 @@
 
 This is the official pytorch implementation of our [paper](https://arxiv.org/abs/2104.00055) SST-GNN: Simplified Spatio-temporal Traffic forecasting model using Graph Neural Network which has been accepted by PAKDD 2021. Check the video presentation of our paper [here](https://youtu.be/Vl4P5IfbuE4).
 
+## Citation
+
+Please cite our paper:
+
+```
+@InProceedings{10.1007/978-3-030-75768-7_8,
+author="Roy, Amit
+and Roy, Kashob Kumar
+and Ahsan Ali, Amin
+and Amin, M. Ashraful
+and Rahman, A. K. M. Mahbubur",
+title="SST-GNN: Simplified Spatio-Temporal Traffic Forecasting Model Using Graph Neural Network",
+booktitle="Advances in Knowledge Discovery and Data Mining",
+year="2021",
+publisher="Springer International Publishing",
+}
+```
+
+
+
 # Abstract
 
 To capture spatial relationships and temporal dynamics in traffic data, spatio-temporal models for traffic forecasting have drawn significant attention in recent years. Most of the recent works employed graph neural networks(GNN) with multiple layers to capture the spatial dependency. However, road junctions with different hop-distance can carry distinct traffic information which should be exploited separately but existing multi-layer GNNs are incompetent to discriminate between their impact. Again, to capture the temporal interrelationship, recurrent neural networks are common in state-of-the-art approaches that often fail to capture long-range dependencies. Furthermore, traffic data shows repeated patterns in a daily or weekly period which should be addressed explicitly.  To address these limitations, we have designed a **S**implified **S**patio-temporal **T**raffic forecasting **GNN (SST-GNN)** that effectively encodes the spatial dependency by separately aggregating different neighborhood representations rather than with multiple layers and capture the temporal dependency with a simple yet effective weighted spatio-temporal aggregation mechanism. We capture the periodic traffic patterns by using a novel position encoding scheme with historical and current data in two different models. With extensive experimental analysis, we have shown that our model has significantly outperformed the state-of-the-art models on three real-world traffic datasets from the Performance Measurement System (PeMS).
