@@ -15,11 +15,7 @@ Please cite our paper:
 
 ```
 @InProceedings{10.1007/978-3-030-75768-7_8,
-author="Roy, Amit
-and Roy, Kashob Kumar
-and Ahsan Ali, Amin
-and Amin, M. Ashraful
-and Rahman, A. K. M. Mahbubur",
+author="Roy, Amit and Roy, Kashob Kumar and Ahsan Ali, Amin and Amin, M. Ashraful and Rahman, A. K. M. Mahbubur",
 title="SST-GNN: Simplified Spatio-Temporal Traffic Forecasting Model Using Graph Neural Network",
 booktitle="Advances in Knowledge Discovery and Data Mining",
 year="2021",
