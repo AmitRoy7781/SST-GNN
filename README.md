@@ -9,21 +9,6 @@
 
 This is the official pytorch implementation of our [paper](https://arxiv.org/abs/2104.00055) SST-GNN: Simplified Spatio-temporal Traffic forecasting model using Graph Neural Network which has been accepted by PAKDD 2021. Check the video presentation of our paper [here](https://youtu.be/Vl4P5IfbuE4).
 
-## Cite
-
-If you find our paper or repo useful then please cite our paper:
-
-```bibtex
-@inproceedings{roy2021sst,
-  title={SST-GNN: simplified spatio-temporal traffic forecasting model using graph neural network},
-  author={Roy, Amit and Roy, Kashob Kumar and Ahsan Ali, Amin and Amin, M Ashraful and Rahman, AKM Mahbubur},
-  booktitle={Advances in Knowledge Discovery and Data Mining: 25th Pacific-Asia Conference, PAKDD 2021, Virtual Event, May 11--14, 2021, Proceedings, Part III},
-  pages={90--102},
-  year={2021},
-  organization={Springer}
-}
-```
-
 
 
 # Abstract
@@ -91,4 +76,19 @@ Please download the trained SSTGNN models from [Google drive](https://drive.goog
 
 ```
 $ python3 sst_gnn.py --cuda --dataset PeMSD7  --pred_len 3 --trained_model
+```
+
+## Cite
+
+If you find our paper or repo useful then please cite our paper:
+
+```bibtex
+@inproceedings{roy2021sst,
+  title={SST-GNN: simplified spatio-temporal traffic forecasting model using graph neural network},
+  author={Roy, Amit and Roy, Kashob Kumar and Ahsan Ali, Amin and Amin, M Ashraful and Rahman, AKM Mahbubur},
+  booktitle={Advances in Knowledge Discovery and Data Mining: 25th Pacific-Asia Conference, PAKDD 2021, Virtual Event, May 11--14, 2021, Proceedings, Part III},
+  pages={90--102},
+  year={2021},
+  organization={Springer}
+}
 ```
